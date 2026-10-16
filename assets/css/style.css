@@ -131,7 +131,7 @@ a:focus-visible { outline: 2px dashed var(--yellow); outline-offset: 3px; }
 /* Buttons */
 .links {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 12px;
 }
 
@@ -150,6 +150,7 @@ a:focus-visible { outline: 2px dashed var(--yellow); outline-offset: 3px; }
 .links a:nth-child(2) { background: var(--yellow); border-color: #7a5f00; }
 .links a:nth-child(3) { background: var(--cyan); border-color: #0b5268; }
 .links a:nth-child(4) { background: var(--pink); border-color: #6e0f30; }
+.links a:nth-child(5) { background: var(--text); border-color: var(--dim); }
 
 .links a:hover, .links a:focus-visible { color: var(--bg); transform: translateY(2px); border-bottom-width: 2px; }
 
@@ -166,6 +167,7 @@ a:focus-visible { outline: 2px dashed var(--yellow); outline-offset: 3px; }
   body { font-size: 19px; }
   .screen { min-height: 480px; padding: 16px 14px 40px; }
   .links { grid-template-columns: repeat(2, 1fr); }
+  .links a:nth-child(5) { grid-column: 1 / -1; }
 }
 
 @media (prefers-reduced-motion: reduce) {
