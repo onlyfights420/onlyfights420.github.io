@@ -1,6 +1,6 @@
 # onlyfights420.github.io
 
-El sitio de **4-20 Systems** en [onlyfights420.github.io](https://onlyfights420.github.io): una terminal con estética de máquina *arcade* que presenta los proyectos (RetroFightersTV, su galería y RetaBot) y los enlaces del canal.
+El sitio de **4-20 Systems** en [onlyfights420.github.io](https://onlyfights420.github.io): una terminal con estética de máquina *arcade* que presenta los proyectos (RetroFightersTV, su galería y RetaBot) y los enlaces del canal. Las guías para colaborar (WSL, Git, Claude Code, OpenSpec y las *skills*) están en la [wiki](https://github.com/onlyfights420/onlyfights420.github.io/wiki).
 
 ## Estructura
 
