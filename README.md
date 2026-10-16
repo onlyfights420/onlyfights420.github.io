@@ -25,6 +25,8 @@ Revisa también el ancho de un celular (360 px) y con «reducir movimiento» act
 
 Los textos de la terminal están en `SESSION`, en `assets/js/script.js`; los botones y el pie, en `index.html`. Si cambias un proyecto, cambia también el contenido de respaldo del `<noscript>`.
 
+Cuando cambies el CSS o el JS, actualiza el `?v=AAAAMMDD-HHMM` de sus enlaces en `index.html`; si no, los navegadores siguen usando la versión anterior que tienen en caché.
+
 - Press Start 2P no tiene acentos: los textos con esa fuente (título, lema y botones) van en mayúsculas sin acentos.
 - **Es un sitio público:** nada de infraestructura (IP, nombres de máquinas, repositorios privados) ni datos de usuarios.
 

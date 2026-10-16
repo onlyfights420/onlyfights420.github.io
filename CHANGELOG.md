@@ -5,6 +5,8 @@
 <!-- markdownlint-disable MD013 MD024 MD022 MD032 -->
 ## [2026-10-16] - Primera versión del sitio
 
+- docs: explicar en el `README.md` cuándo actualizar la versión de los enlaces al CSS y al JS
+- fix: versionar los enlaces al CSS y al JS (`?v=`) para que los navegadores no usen estilos viejos en caché, y acomodar los botones en una sola fila sin importar cuántos sean
 - docs: enlazar la wiki de guías desde el `README.md`
 - feat: agregar el botón «GUIAS» que lleva a la wiki, con su propio color y a todo lo ancho en celulares
 - docs: agregar `AGENTS.md` con las reglas para agentes de IA (sitio público que se publica al hacer *push*, nada privado, sin dependencias nuevas, accesibilidad y la fuente sin acentos) y `CLAUDE.md` como enlace simbólico a él
