@@ -5,6 +5,7 @@
 <!-- markdownlint-disable MD013 MD024 MD022 MD032 -->
 ## [2026-10-16] - Primera versión del sitio
 
+- feat: presentar 4-20 Systems como código abierto (lema «OPEN SOURCE FOR FIGHTING GAMES», la terminal, las descripciones y el contenido de respaldo) y agregar a la terminal la invitación a colaborar con enlace a las guías
 - docs: explicar en el `README.md` cuándo actualizar la versión de los enlaces al CSS y al JS
 - fix: versionar los enlaces al CSS y al JS (`?v=`) para que los navegadores no usen estilos viejos en caché, y acomodar los botones en una sola fila sin importar cuántos sean
 - docs: enlazar la wiki de guías desde el `README.md`

@@ -2,11 +2,12 @@
 (() => {
   const YOUTUBE = "https://www.youtube.com/channel/UC9sBM8rceAKacjTyjvFkeUQ";
   const GALLERY = "https://sunkpoet-lang.github.io/RetroFightersTV/";
+  const WIKI = "https://github.com/onlyfights420/onlyfights420.github.io/wiki";
 
   // Each line: a command (typed) or output (shown at once). Output may contain trusted inline HTML.
   const SESSION = [
     { cmd: "whoami" },
-    { out: '<span class="hl">4-20 Systems</span>: software libre para la comunidad de juegos de pelea.' },
+    { out: '<span class="hl">4-20 Systems</span>: código abierto para la comunidad de juegos de pelea.' },
     { gap: true },
     { cmd: "ls proyectos/" },
     { out: `<a href="${YOUTUBE}">RetroFightersTV</a>  retas de Fightcade grabadas, editadas y subidas solas a YouTube` },
@@ -15,10 +16,13 @@
     { gap: true },
     { cmd: "cat stack.txt" },
     { out: "OpenTofu · Ansible · Podman · OpenBao · Python · FFmpeg" },
-    { out: '<span class="pink">100%</span> software libre.' },
+    { out: '<span class="pink">100%</span> código abierto.' },
     { gap: true },
     { cmd: "echo $MISION" },
     { out: "Que cada reta de la comunidad tenga su video, sin que nadie edite a mano." },
+    { gap: true },
+    { cmd: "cat CONTRIBUTING.md" },
+    { out: `Abiertos a colaborar: empieza por las <a href="${WIKI}">guías</a>.` },
     { gap: true },
     { cmd: "insert-coin", final: true },
   ];
